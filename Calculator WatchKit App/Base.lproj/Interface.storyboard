@@ -1,14 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15400" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15400"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Calculator_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="32" alignment="left" id="c4z-gY-OBE">
+                            <items>
+                                <button width="34" height="40" alignment="left" title="AC" id="ed4-4e-2qz">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="0.94333755969999999" green="0.71260829319999996" blue="0.3082132575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </button>
+                                <label width="98" height="43" alignment="left" text="0" textAlignment="right" id="glK-p9-BzP"/>
+                            </items>
+                        </group>
+                        <group width="1" height="121" alignment="left" layout="vertical" spacing="4" id="o57-NX-RAO">
+                            <items>
+                                <group width="1" height="26" alignment="left" id="OTN-Lz-8eq">
+                                    <items>
+                                        <button width="32" height="1" alignment="left" title="7" id="bss-ko-al8"/>
+                                        <button width="32" height="1" alignment="left" title="7" id="kLJ-e7-Ad8"/>
+                                        <button width="32" height="1" alignment="left" title="7" id="ff7-4Z-Pkh"/>
+                                        <button width="32" height="1" alignment="left" title="✚" id="DPc-fK-LnK"/>
+                                    </items>
+                                </group>
+                                <group width="1" height="26" alignment="left" id="B28-gF-9LJ">
+                                    <items>
+                                        <button width="32" height="1" alignment="left" title="7" id="ez5-Yx-6uf"/>
+                                        <button width="32" height="1" alignment="left" title="7" id="AEK-Iq-Kld"/>
+                                        <button width="32" height="1" alignment="left" title="7" id="5jd-nG-ZmK"/>
+                                        <button width="32" height="1" alignment="left" title="−" id="s5m-Na-ecP">
+                                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="26" alignment="left" id="Aoa-PO-heE">
+                                    <items>
+                                        <button width="32" height="1" alignment="left" title="7" id="AxI-4M-Zj5"/>
+                                        <button width="32" height="1" alignment="left" title="7" id="gX1-rM-jOn"/>
+                                        <button width="32" height="1" alignment="left" title="7" id="NHe-Jz-lLC"/>
+                                        <button width="32" height="1" alignment="left" title="﹡" id="opz-o7-P2y">
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="28" alignment="left" id="lC4-Zf-FRm">
+                                    <items>
+                                        <button width="32" height="1" alignment="left" title="7" id="muf-FD-1ZV"/>
+                                        <button width="32" height="1" alignment="left" title="7" id="dkD-iv-dze"/>
+                                        <button width="32" height="1" alignment="left" title="." id="mbN-8l-mJr">
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="﹦" id="awm-3N-Kdy">
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
@@ -32,16 +89,16 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Calculator_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Calculator_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="220" y="1042"/>
         </scene>
     </scenes>
 </document>
