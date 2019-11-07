@@ -13,58 +13,127 @@
                     <items>
                         <group width="1" height="32" alignment="left" id="c4z-gY-OBE">
                             <items>
-                                <button width="34" height="40" alignment="left" title="AC" id="ed4-4e-2qz">
+                                <button width="34" height="30" alignment="left" title="AC" id="ed4-4e-2qz">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" red="0.94333755969999999" green="0.71260829319999996" blue="0.3082132575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="AC" destination="AgC-eL-Hgc" id="jYO-GI-Ncw"/>
+                                    </connections>
                                 </button>
-                                <label width="98" height="43" alignment="left" text="0" textAlignment="right" id="glK-p9-BzP"/>
+                                <label width="98" height="30" alignment="left" text="0" textAlignment="right" id="glK-p9-BzP"/>
                             </items>
                         </group>
                         <group width="1" height="121" alignment="left" layout="vertical" spacing="4" id="o57-NX-RAO">
                             <items>
                                 <group width="1" height="26" alignment="left" id="OTN-Lz-8eq">
                                     <items>
-                                        <button width="32" height="1" alignment="left" title="7" id="bss-ko-al8"/>
-                                        <button width="32" height="1" alignment="left" title="7" id="kLJ-e7-Ad8"/>
-                                        <button width="32" height="1" alignment="left" title="7" id="ff7-4Z-Pkh"/>
-                                        <button width="32" height="1" alignment="left" title="✚" id="DPc-fK-LnK"/>
+                                        <button width="32" height="361" alignment="left" title="9" id="bss-ko-al8">
+                                            <connections>
+                                                <action selector="nine" destination="AgC-eL-Hgc" id="LWa-O5-b3z"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="8" id="kLJ-e7-Ad8">
+                                            <connections>
+                                                <action selector="eight" destination="AgC-eL-Hgc" id="j9S-dN-xXh"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="7" id="ff7-4Z-Pkh">
+                                            <connections>
+                                                <action selector="seven" destination="AgC-eL-Hgc" id="vw4-RS-1aa"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="✚" id="DPc-fK-LnK">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="add" destination="AgC-eL-Hgc" id="Bcl-S9-Dbj"/>
+                                            </connections>
+                                        </button>
                                     </items>
                                 </group>
                                 <group width="1" height="26" alignment="left" id="B28-gF-9LJ">
                                     <items>
-                                        <button width="32" height="1" alignment="left" title="7" id="ez5-Yx-6uf"/>
-                                        <button width="32" height="1" alignment="left" title="7" id="AEK-Iq-Kld"/>
-                                        <button width="32" height="1" alignment="left" title="7" id="5jd-nG-ZmK"/>
+                                        <button width="32" height="1" alignment="left" title="6" id="ez5-Yx-6uf">
+                                            <connections>
+                                                <action selector="six" destination="AgC-eL-Hgc" id="73n-Ae-dgS"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="5" id="AEK-Iq-Kld">
+                                            <connections>
+                                                <action selector="five" destination="AgC-eL-Hgc" id="d66-p6-YpH"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="4" id="5jd-nG-ZmK">
+                                            <connections>
+                                                <action selector="four" destination="AgC-eL-Hgc" id="Igs-37-DhE"/>
+                                            </connections>
+                                        </button>
                                         <button width="32" height="1" alignment="left" title="−" id="s5m-Na-ecP">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                            <connections>
+                                                <action selector="minus" destination="AgC-eL-Hgc" id="tUz-ZF-jem"/>
+                                            </connections>
                                         </button>
                                     </items>
                                 </group>
                                 <group width="1" height="26" alignment="left" id="Aoa-PO-heE">
                                     <items>
-                                        <button width="32" height="1" alignment="left" title="7" id="AxI-4M-Zj5"/>
-                                        <button width="32" height="1" alignment="left" title="7" id="gX1-rM-jOn"/>
-                                        <button width="32" height="1" alignment="left" title="7" id="NHe-Jz-lLC"/>
-                                        <button width="32" height="1" alignment="left" title="﹡" id="opz-o7-P2y">
+                                        <button width="32" height="1" alignment="left" title="3" id="AxI-4M-Zj5">
+                                            <connections>
+                                                <action selector="three" destination="AgC-eL-Hgc" id="Op2-wJ-z1q"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="2" id="gX1-rM-jOn">
+                                            <connections>
+                                                <action selector="two" destination="AgC-eL-Hgc" id="sv7-LP-bVc"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="1" id="NHe-Jz-lLC">
+                                            <connections>
+                                                <action selector="one" destination="AgC-eL-Hgc" id="lRf-fJ-xHS"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="141" alignment="left" title="﹡" id="opz-o7-P2y">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="multiply" destination="AgC-eL-Hgc" id="cbz-Xy-NJs"/>
+                                            </connections>
                                         </button>
                                     </items>
                                 </group>
                                 <group width="1" height="28" alignment="left" id="lC4-Zf-FRm">
                                     <items>
-                                        <button width="32" height="1" alignment="left" title="7" id="muf-FD-1ZV"/>
-                                        <button width="32" height="1" alignment="left" title="7" id="dkD-iv-dze"/>
+                                        <button width="32" height="1" alignment="left" title="➗" id="muf-FD-1ZV">
+                                            <connections>
+                                                <action selector="divide" destination="AgC-eL-Hgc" id="agV-9e-UdI"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="1" alignment="left" title="0" id="dkD-iv-dze">
+                                            <connections>
+                                                <action selector="zero" destination="AgC-eL-Hgc" id="h2Z-lU-JfW"/>
+                                            </connections>
+                                        </button>
                                         <button width="32" height="1" alignment="left" title="." id="mbN-8l-mJr">
                                             <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="decimal" destination="AgC-eL-Hgc" id="cyf-45-IwW"/>
+                                            </connections>
                                         </button>
                                         <button width="32" height="1" alignment="left" title="﹦" id="awm-3N-Kdy">
                                             <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="result" destination="AgC-eL-Hgc" id="dIQ-XI-j1H"/>
+                                            </connections>
                                         </button>
                                     </items>
                                 </group>
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="calDisp" destination="glK-p9-BzP" id="W9k-Ta-WpM"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
