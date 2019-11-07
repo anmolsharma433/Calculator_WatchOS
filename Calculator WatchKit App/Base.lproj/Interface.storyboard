@@ -11,7 +11,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Calculator_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" height="32" alignment="left" id="c4z-gY-OBE">
+                        <group height="32" alignment="left" id="c4z-gY-OBE">
                             <items>
                                 <button width="34" height="30" alignment="left" title="AC" id="ed4-4e-2qz">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -23,7 +23,7 @@
                                 <label width="98" height="30" alignment="left" text="0" textAlignment="right" id="glK-p9-BzP"/>
                             </items>
                         </group>
-                        <group width="1" height="121" alignment="left" layout="vertical" spacing="4" id="o57-NX-RAO">
+                        <group height="130" alignment="left" contentMode="scaleAspectFit" layout="vertical" spacing="3" id="o57-NX-RAO">
                             <items>
                                 <group width="1" height="26" alignment="left" id="OTN-Lz-8eq">
                                     <items>
@@ -43,7 +43,8 @@
                                             </connections>
                                         </button>
                                         <button width="32" height="1" alignment="left" title="✚" id="DPc-fK-LnK">
-                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.94333755969999999" green="0.71260829319999996" blue="0.3082132575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
                                                 <action selector="add" destination="AgC-eL-Hgc" id="Bcl-S9-Dbj"/>
                                             </connections>
@@ -68,7 +69,8 @@
                                             </connections>
                                         </button>
                                         <button width="32" height="1" alignment="left" title="−" id="s5m-Na-ecP">
-                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.94333755969999999" green="0.71260829319999996" blue="0.3082132575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <fontDescription key="font" type="boldSystem" pointSize="16"/>
                                             <connections>
                                                 <action selector="minus" destination="AgC-eL-Hgc" id="tUz-ZF-jem"/>
@@ -94,7 +96,8 @@
                                             </connections>
                                         </button>
                                         <button width="32" height="141" alignment="left" title="﹡" id="opz-o7-P2y">
-                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.94333755969999999" green="0.71260829319999996" blue="0.3082132575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <fontDescription key="font" type="boldSystem" pointSize="15"/>
                                             <connections>
                                                 <action selector="multiply" destination="AgC-eL-Hgc" id="cbz-Xy-NJs"/>
@@ -104,7 +107,9 @@
                                 </group>
                                 <group width="1" height="28" alignment="left" id="lC4-Zf-FRm">
                                     <items>
-                                        <button width="32" height="1" alignment="left" title="➗" id="muf-FD-1ZV">
+                                        <button width="32" height="1" alignment="left" title="÷" id="muf-FD-1ZV">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.94333755969999999" green="0.71260829319999996" blue="0.3082132575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
                                                 <action selector="divide" destination="AgC-eL-Hgc" id="agV-9e-UdI"/>
                                             </connections>
@@ -114,14 +119,10 @@
                                                 <action selector="zero" destination="AgC-eL-Hgc" id="h2Z-lU-JfW"/>
                                             </connections>
                                         </button>
-                                        <button width="32" height="1" alignment="left" title="." id="mbN-8l-mJr">
-                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
-                                            <connections>
-                                                <action selector="decimal" destination="AgC-eL-Hgc" id="cyf-45-IwW"/>
-                                            </connections>
-                                        </button>
-                                        <button width="32" height="1" alignment="left" title="﹦" id="awm-3N-Kdy">
-                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                        <button width="63" height="1" alignment="left" title="﹦" id="awm-3N-Kdy">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.419192493" green="0.68672049049999995" blue="0.19983994960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="25"/>
                                             <connections>
                                                 <action selector="result" destination="AgC-eL-Hgc" id="dIQ-XI-j1H"/>
                                             </connections>
@@ -153,7 +154,7 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="220" y="674"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
