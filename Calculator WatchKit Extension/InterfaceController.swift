@@ -67,9 +67,6 @@ class InterfaceController: WKInterfaceController {
     @IBAction func zero() {
         addToNumber(num: 0)
     }
-//    @IBAction func decimal() {
-//    }
-//
     //Math operations func
     @IBAction func add() {
         operatorPressed(op: "Add")
